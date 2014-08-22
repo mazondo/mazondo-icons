@@ -1,50 +1,54 @@
 {
   "checksum": {
-    "previous": "",
-    "current": "89a63a8fe7a79173d113f62d4b8694588620c6e5c9283d86d66d0e9cf09add44"
+    "previous": "1f3b86b861cfa49e8dbc874779208eaf67a845423bb6e55684f09e3b7fbe6d87",
+    "current": "1f3b86b861cfa49e8dbc874779208eaf67a845423bb6e55684f09e3b7fbe6d87"
   },
   "fonts": [
-
+    "src/fonts/fontcustom_1f3b86b861cfa49e8dbc874779208eaf.ttf",
+    "src/fonts/fontcustom_1f3b86b861cfa49e8dbc874779208eaf.svg",
+    "src/fonts/fontcustom_1f3b86b861cfa49e8dbc874779208eaf.woff",
+    "src/fonts/fontcustom_1f3b86b861cfa49e8dbc874779208eaf.eot"
   ],
   "glyphs": {
     "harpoon": {
-      "source": "svg/harpoon.svg",
-      "codepoint": 61696
+      "codepoint": 61696,
+      "source": "svg/harpoon.svg"
     },
     "helppages": {
-      "source": "svg/helppages.svg",
-      "codepoint": 61697
+      "codepoint": 61697,
+      "source": "svg/helppages.svg"
     },
     "stretchr": {
-      "source": "svg/stretchr.svg",
-      "codepoint": 61698
+      "codepoint": 61698,
+      "source": "svg/stretchr.svg"
     }
   },
   "options": {
+    "autowidth": true,
+    "config": "fontcustom.yml",
+    "css_selector": ".icon-{{glyph}}",
+    "debug": true,
+    "font_name": "fontcustom",
+    "force": false,
     "input": {
-      "vectors": "svg",
-      "templates": "templates"
+      "templates": "templates",
+      "vectors": "svg"
     },
+    "no_hash": false,
     "output": {
-      "fonts": "src/fonts",
       "css": "src/css",
+      "fonts": "src/fonts",
       "preview": "src/preview"
     },
-    "config": "fontcustom.yml",
+    "preprocessor_path": "",
+    "quiet": false,
     "templates": [
       "css",
       "preview"
-    ],
-    "font_name": "fontcustom",
-    "css_selector": ".icon-{{glyph}}",
-    "preprocessor_path": "",
-    "autowidth": true,
-    "no_hash": false,
-    "debug": true,
-    "force": false,
-    "quiet": false
+    ]
   },
   "templates": [
-
+    "src/css/fontcustom.css",
+    "src/preview/fontcustom-preview.html"
   ]
 }

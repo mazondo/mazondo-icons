@@ -1,0 +1,50 @@
+{
+  "checksum": {
+    "previous": "",
+    "current": "89a63a8fe7a79173d113f62d4b8694588620c6e5c9283d86d66d0e9cf09add44"
+  },
+  "fonts": [
+
+  ],
+  "glyphs": {
+    "harpoon": {
+      "source": "svg/harpoon.svg",
+      "codepoint": 61696
+    },
+    "helppages": {
+      "source": "svg/helppages.svg",
+      "codepoint": 61697
+    },
+    "stretchr": {
+      "source": "svg/stretchr.svg",
+      "codepoint": 61698
+    }
+  },
+  "options": {
+    "input": {
+      "vectors": "svg",
+      "templates": "templates"
+    },
+    "output": {
+      "fonts": "src/fonts",
+      "css": "src/css",
+      "preview": "src/preview"
+    },
+    "config": "fontcustom.yml",
+    "templates": [
+      "css",
+      "preview"
+    ],
+    "font_name": "fontcustom",
+    "css_selector": ".icon-{{glyph}}",
+    "preprocessor_path": "",
+    "autowidth": true,
+    "no_hash": false,
+    "debug": true,
+    "force": false,
+    "quiet": false
+  },
+  "templates": [
+
+  ]
+}
